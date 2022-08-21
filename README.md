@@ -9,14 +9,18 @@ API написано на языке Python и является кросспла
 # Сборка проекта
 <b> На Windows
 ```
-/opt$ docker pull exppi/dockerhub:agora-hack-windows
-/opt$ docker run -i -t -p 0.0.0.0:8000:8000 -d exppi/dockerhub:agora-hack-windows
+docker pull exppi/dockerhub:agora-hack-windows
+```
+```
+docker run -i -t -p 0.0.0.0:8000:8000 -d exppi/dockerhub:agora-hack-windows
 ```
 </b>
 
 <b> На Linux
 ```
 docker pull exppi/dockerhub:agora-hack-linux
+```
+```
 docker run -i -t -p 0.0.0.0:8000:8000 -d exppi/dockerhub:agora-hack-linux
 ```
 </b>
@@ -28,5 +32,3 @@ docker run -i -t -p 0.0.0.0:8000:8000 -d exppi/dockerhub:agora-hack-linux
 ![image](https://user-images.githubusercontent.com/32881349/185777289-a7e22cbf-a786-455c-a787-b5999457555a.png)
 
 http://51.250.29.0/
-
-
