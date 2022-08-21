@@ -5,9 +5,22 @@
 ## API
 API работает с Docker контейнерами, в которых прописаны зависимости и особенности сборки бэкенд части нашего сервиса. API представляет методы для получения списка товаров, результата поиска эталонов и эталонных характеристик для различных товаров.
 API написано на языке Python и является кроссплатформенным, то есть может быть запущено в различных окружениях. 
-Для сборки достаточно выполнить две команды Docker:
-### docker pull exppi/dockerhub:agora-hack-windows
-### docker run -i -t -p 0.0.0.0:8000:8000 -d exppi/dockerhub:agora-hack-windows
+
+# Сборка проекта
+<b> На Windows
+```
+/opt$ docker pull exppi/dockerhub:agora-hack-windows
+/opt$ docker run -i -t -p 0.0.0.0:8000:8000 -d exppi/dockerhub:agora-hack-windows
+```
+</b>
+
+<b> На Linux
+```
+/opt$ docker pull exppi/dockerhub:agora-hack-linux
+/opt$ docker run -i -t -p 0.0.0.0:8000:8000 -d exppi/dockerhub:agora-hack-linux
+```
+</b>
+
 И перейти по ссылке: http://localhost:8000/doc
 
 #### Запрос на получение эталонов на 100 товаров выполняется и возращает ответ в среднем за 0.6 секунды.
