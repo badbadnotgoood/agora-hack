@@ -39,8 +39,9 @@
   }
 
   .container {
-    max-height: 1200px;
+    max-height: 1400px;
     justify-content: center;
+    border-radius: unset;
   }
 
   .block {

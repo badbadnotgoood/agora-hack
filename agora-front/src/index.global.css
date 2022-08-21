@@ -1,14 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
-@import '~antd/dist/antd.css';
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+@import "~antd/dist/antd.css";
 
-body, body * {
+body,
+body * {
   all: unset;
   display: flex;
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   min-width: 100vw;
   min-height: 100vh;
 }
@@ -21,10 +23,11 @@ script {
   width: 100%;
   flex-direction: column;
   align-items: center;
-  background-color: #F0F0F0;
+  background-color: #f0f0f0;
 }
 
-button {
+button,
+a {
   cursor: pointer;
 }
 
@@ -39,4 +42,10 @@ button {
 .ant-spin-dot-item {
   width: 25px !important;
   height: 25px !important;
+}
+
+@media screen and (max-width: 1050px) {
+  .ant-upload-text {
+    font-size: 30px !important;
+  }
 }
