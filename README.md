@@ -2,7 +2,7 @@
 В этом репозитории находится модуль ML, API и Frontend
 ## ML🤖
 
-![image](https://user-images.githubusercontent.com/83156020/185786739-ba74f6cf-3f71-470d-b5df-b1da1b3fad86.png)
+![ezgif-4-b75a4e4f84](https://user-images.githubusercontent.com/83156020/185787255-c8260a9a-413b-4be2-a049-86e14bd2910a.gif)
 
 http://51.250.29.0:8000/web/dots.html
 
