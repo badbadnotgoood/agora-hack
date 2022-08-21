@@ -3,7 +3,6 @@
   max-height: 700px;
   border-radius: 20px;
   box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.2);
-
 }
 
 .content {
@@ -13,10 +12,9 @@
 }
 
 .block {
-flex: 1;
   padding-top: 20px;
   padding-bottom: 20px;
-  background-color: #F0F0F0;
+  background-color: #f0f0f0;
   border-bottom: 10px solid white;
   align-items: center;
 }
@@ -34,19 +32,19 @@ flex: 1;
 }
 
 @media screen and (max-width: 1050px) {
-    .equals {
-        transform: rotate(90deg);
-        font-size: 120px;
-        justify-content: center;
-    }
+  .equals {
+    transform: rotate(90deg);
+    font-size: 120px;
+    justify-content: center;
+  }
 
-    .container {
-        max-height: 1200px;
-        justify-content: center;
-    }
+  .container {
+    max-height: 1200px;
+    justify-content: center;
+  }
 
-    .block {
-        flex-direction: column;
-        border-bottom: 30px solid white;
-    }
+  .block {
+    flex-direction: column;
+    border-bottom: 30px solid white;
+  }
 }

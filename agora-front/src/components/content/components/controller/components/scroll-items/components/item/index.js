@@ -12,8 +12,8 @@ export const Item = ({ name, nulls, props, title }) => {
       <div className={styles.props__container}>
         {props.map((el, i) => (
           <span className={styles.prop} key={`prop-${i}`}>
-            <span>{el.key + ":"}</span>
-            <span>&nbsp;{el.value}</span>
+            <span className={styles.prop__key}>{el.key + ":"}</span>
+            <span className={styles.prop__value}>&nbsp;{el.value}</span>
           </span>
         ))}
       </div>
@@ -21,9 +21,15 @@ export const Item = ({ name, nulls, props, title }) => {
   };
 
   const NullsComponent = ({ nulls }) => {
-    return nulls.map((el, i) => (
-      <span className={styles["null-prop"]} key={i}>{el}</span>
-    ));
+    let string = [];
+    nulls.forEach((el) => {
+      string.push(`${el}`);
+    });
+    return (
+      <span className={styles.prop}>
+        <span className={styles["null-prop"]}>{string}</span>
+      </span>
+    );
   };
 
   return (
