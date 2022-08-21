@@ -8,6 +8,11 @@
 
 ![image](https://user-images.githubusercontent.com/83156020/185787569-5fb6dc65-54aa-46e0-b72d-934d85bf6371.png)
 
+![image](https://user-images.githubusercontent.com/83156020/185787802-ae9af800-34e4-430d-98e2-1146043777ef.png)
+
+![image](https://user-images.githubusercontent.com/83156020/185787812-2cb855a7-1b4f-4d37-91fc-ece537a96021.png)
+
+
 http://51.250.29.0:8000/web/dots.html
 
 ## API📬
