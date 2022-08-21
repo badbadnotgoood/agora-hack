@@ -8,10 +8,6 @@
 
 ![image](https://user-images.githubusercontent.com/83156020/185787569-5fb6dc65-54aa-46e0-b72d-934d85bf6371.png)
 
-
-![Uploading Agoro_Hack_—_Яндекс Браузер_2022-08-21_13-32-25_(online-video-cutter.com).gif…]()
-
-
 http://51.250.29.0:8000/web/dots.html
 
 ## API📬
