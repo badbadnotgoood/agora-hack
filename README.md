@@ -15,8 +15,6 @@ API написано на языке Python и является кросспла
 
 #### Запрос на получение эталонов на 100 товаров выполняется и возращает ответ в среднем за 0.6 секунды.
 
-![image](https://user-images.githubusercontent.com/32881349/185777289-a7e22cbf-a786-455c-a787-b5999457555a.png)
-
 # Сборка проекта
 <b> На Windows
 ```
@@ -37,5 +35,8 @@ docker run -i -t -p 0.0.0.0:8000:8000 -d exppi/dockerhub:agora-hack-linux
 </b>
 
 И перейти по ссылке: http://localhost:8000/doc
+
+
+![image](https://user-images.githubusercontent.com/32881349/185777289-a7e22cbf-a786-455c-a787-b5999457555a.png)
 
 http://51.250.29.0/
