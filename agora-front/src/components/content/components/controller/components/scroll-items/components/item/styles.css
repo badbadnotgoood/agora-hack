@@ -1,0 +1,47 @@
+.container {
+    flex-direction: column;
+    padding: 20px 20px;
+    box-shadow: 0px 4px 12px 0px rgba(34, 60, 80, 0.2);
+    border-radius: 15px;
+    background-color: white;
+    height: fit-content;
+}
+
+.container:first-child {
+    margin-left: 20px;
+}
+
+.container:last-child {
+    margin-right: 20px;
+}
+
+.props__container {
+    flex-direction: column;
+}
+
+.name {
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.title {
+    font-size: 20px;
+}
+
+.prop, .null-prop {
+    font-size: 20px;
+}
+
+@media screen and (max-width: 1050px) {
+    .container:first-child, .container:last-child {
+        margin: 0 10px;
+    }
+
+    .name, .title {
+        font-size: 45px;
+    }
+
+    .prop, .null-prop {
+        font-size: 35px;
+    }
+}

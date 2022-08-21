@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import '~antd/dist/antd.css';
+
+body, body * {
+  all: unset;
+  display: flex;
+  font-family: 'Rubik', sans-serif;
+  box-sizing: border-box;
+}
+
+html, body {
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+script {
+  display: none;
+}
+
+#root {
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  background-color: #F0F0F0;
+}
+
+button {
+  cursor: pointer;
+}
+
+.ant-spin {
+  background-color: white !important;
+}
+
+.ant-spin-dot {
+  font-size: 55px !important;
+}
+
+.ant-spin-dot-item {
+  width: 25px !important;
+  height: 25px !important;
+}

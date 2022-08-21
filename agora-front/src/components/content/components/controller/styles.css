@@ -1,0 +1,58 @@
+.container {
+    flex: 1;
+    justify-content: center;
+}
+
+.content {
+    border: 20px solid white;
+    border-radius: 20px;
+    box-shadow: 0px 4px 12px 0px rgba(34, 60, 80, 0.2);
+    flex-direction: column;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.content > span, .content > span > div:first-child * {
+    flex-direction: column;
+}
+
+.content > span > div:last-child {
+    display: none;
+}
+
+.upload-icon {
+    width: 40px;
+}
+
+.button__container {
+    background-color: white;
+    padding-bottom: 30px;
+    justify-content: space-between;
+}
+
+.button {
+    padding: 10px 10px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0px 2px 4px 0px rgba(34, 60, 80, 0.2);
+}
+
+.button:first-child {
+    margin-right: 30px;
+}
+
+.spin {
+    width: 100px;
+    height: 100px;
+}
+
+@media screen and (max-width: 1050px) {
+    .button {
+        font-size: 45px;
+        padding: 15px;
+    }
+
+    .container {
+        padding: 10px 0;
+    }
+}
