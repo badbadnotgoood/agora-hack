@@ -11,6 +11,7 @@ API написании на языке Python и являются кросспл
 И перейти по ссылке: http://localhost:8000/doc
 
 ![image](https://user-images.githubusercontent.com/32881349/185777289-a7e22cbf-a786-455c-a787-b5999457555a.png)
+
 http://51.250.29.0/
 
 
